@@ -1,0 +1,174 @@
+.todoListMain {
+  text-align: center;
+}
+
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #0066ff;
+  width: 55%;
+  border-radius: 5px;
+}
+
+.todoListMain .header input:focus,
+button:focus {
+  outline: none;
+}
+
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066ff;
+  color: #fff;
+  border: 2px solid #0066ff;
+  border-radius: 5px;
+}
+
+.todoListMain .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+
+.todoListMain .theList li {
+  text-align: left;
+  word-break: break-word;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px 0px;
+  /* margin-bottom: 15px; */
+  /* border-radius: 5px; */
+  list-style: none;
+  transition: background-color 0.2s ease-out;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.125); */
+}
+
+.todoListMain .theList li:hover {
+  /* background-color: #e12c2c; */
+  cursor: pointer;
+}
+
+ul.theList {
+  padding: 0;
+}
+
+.todoListMain .todoItem {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.check {
+  margin: auto;
+  flex-grow: 1;
+}
+
+.checkButtonNotDone {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 1rem;
+  background-color: #eee;
+}
+
+.checkButtonNotDone:hover {
+  background-color: #ccc;
+}
+
+.checkButtonDone {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 1rem;
+  background-color: #37b24d;
+  color: #fff;
+}
+
+/* .checkButton {
+  border: none;
+  padding: 18px;
+  background-color: #2196f3;
+} */
+
+/* .textContainer {
+  flex-grow: 9;
+  width: 80%;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  text-align: left;
+  word-break: break-all;
+  margin: 10px;
+  width: 100%;
+} */
+
+.todoText {
+  flex-grow: 9;
+  width: 80%;
+  border: none;
+  resize: none;
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+/* .textNotDone {
+  
+} */
+
+.textDone {
+  text-decoration: line-through;
+  color: #37b24d;
+}
+
+.delete {
+  text-align: right;
+  margin: auto;
+  flex-grow: 1;
+}
+
+.delete button:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+/* .button { 
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.greenButton {
+  background-color: #37b24d;
+}
+
+.redButton {
+  background-color: #e12c2c;
+  margin-left: 0.4rem;
+} */
+
+/* .deleteButton { old
+  padding: 0;
+  cursor: pointer;
+  border: 0;
+  text-align: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  opacity: 0.2;
+} */
+
+.deleteButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 1rem;
+  background-color: #eee;
+  /* margin-right: 13px; */
+}
